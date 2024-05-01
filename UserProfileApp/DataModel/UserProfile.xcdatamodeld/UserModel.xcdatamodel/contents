@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22522" systemVersion="22G91" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="Entity" representedClassName="Entity" syncable="YES" codeGenerationType="class">
+        <attribute name="qwwew" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="UserProfile" representedClassName="UserProfile" syncable="YES" codeGenerationType="class">
+        <attribute name="email" attributeType="String" defaultValueString=""/>
+        <attribute name="firstName" attributeType="String" defaultValueString=""/>
+        <attribute name="lastName" attributeType="String" defaultValueString=""/>
+        <attribute name="nickname" attributeType="String" defaultValueString=""/>
+        <attribute name="patronymic" optional="YES" attributeType="String" defaultValueString=""/>
+        <attribute name="phone" attributeType="String" defaultValueString=""/>
+        <attribute name="photo" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES"/>
+        <attribute name="telegram" attributeType="String" defaultValueString=""/>
+    </entity>
+    <fetchRequest name="FetchRequest" entity="UserProfile"/>
+</model>
